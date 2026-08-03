@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.log
+
+# SQLite database
+cost-tracker-app/data/
+
+# Secrets
+cost-tracker-app/.env
+
+# SonarQube / Docker volumes
+sonarqube_data/
+sonarqube_extensions/
+sonarqube_logs/
+postgresql_data/
+
+.tanstack/

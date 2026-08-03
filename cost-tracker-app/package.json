@@ -1,0 +1,14 @@
+{
+  "name": "cost-tracker-app",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "db:push": "drizzle-kit push",
+    "db:seed": "tsx db/seed.ts"
+  }
+}
